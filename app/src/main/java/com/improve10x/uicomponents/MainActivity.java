@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             }
             if (dateDp.isShown() == true) {
                 String date = String.valueOf(dateDp.getDayOfMonth());
-                String month = String.valueOf(dateDp.getMonth());
+                String month = String.valueOf(dateDp.getMonth()+1);
                 String year = String.valueOf(dateDp.getYear());
                 resultTxt.setText(date + "/" + month + "/" + year);
             }
