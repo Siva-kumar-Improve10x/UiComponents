@@ -22,11 +22,44 @@
                 android:backgroundTint="#768080"
                 android:text="Google" />
 
+            <Button
+                android:id="@+id/facebook_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#3F51B5"
+                android:text="Face Book" />
+
+            <Button
+                android:id="@+id/youtube_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#F44336"
+                android:text="You Tube" />
+
+            <Button
+                android:id="@+id/twitter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#42A5F5"
+                android:text="Twitter" />
+
+            <Button
+                android:id="@+id/instagram_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#CD486B"
+                android:text="Instagram" />
+
         </LinearLayout>
     </HorizontalScrollView>
 
     <WebView
         android:id="@+id/webview_wv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_margin="4dp" />
 </LinearLayout>
